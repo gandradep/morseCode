@@ -36,4 +36,11 @@ def decode_word(word)
   end
 end
 
-decode_word('-- -.--')
+def decode_sentence(sentence)
+  sentence.split('   ').each do |n|
+    decode_word(n)
+    print ' '
+  end
+end
+
+decode_sentence(' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
