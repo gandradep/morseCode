@@ -4,8 +4,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+    - [Tech Stack](#tech-stack)    
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)  
@@ -21,24 +20,18 @@
 
 # 📖 morseCode <a name="about-project"></a>
 
-**Morse Code** is a database project for a veteraniry clinic.
+**Morse Code** is a ruby based methods that help us decipher morse code sentences.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **Relational Database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,7 +43,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: Relational databases and their management systems that use SQL as their underlying query language
+In order to run this project you need: Ruby install on your local computer.
 
 ### Setup
 
@@ -58,10 +51,7 @@ Clone this repository to your desired folder.
 
 ### Usage
 
-This repository includes a file with plain SQL that can be used to recreate a database based on a given database diagram:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+This repository includes a inde.rb file that has the methods need it to decipher morse code sentences
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +77,7 @@ This repository includes a file with plain SQL that can be used to recreate a da
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use the database for an app**
+- [ ] **Develop the front end part of this app**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
